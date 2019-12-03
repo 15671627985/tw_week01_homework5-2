@@ -46,7 +46,8 @@ h2 {
   position: absolute;
   margin-left: 10%;
   display: inline;
-  margin: 30px 10px 30px 0px;
+  margin: 30px 10px 20px 0px;
+  padding-bottom: 0;
 
   border-width: 30px;
   border-style: dashed dashed solid dashed;
@@ -71,13 +72,5 @@ h2 {
   columns: 3 50px;
   column-gap: 30px;
   text-align: justify;
-}
-
-.empire:hover {
-  background-color: rgba(58, 1, 132, 0.44);
-}
-
-.liberty:hover {
-  color: rgba(255, 231, 179, 0.3);
 }
 
